@@ -8,13 +8,13 @@ int main() {
     
     printf("Dizi Boyutu Girin");
     scanf("%d", &size1);
-    printf("Dizi Elemanlarý Giriniz\n");
+    printf("Dizi ElemanlarÃ½ Giriniz\n");
     for(int i =0; i < size1; i++){
     	scanf("%d", &x[i]);
 	}
 	printf("Dizi Boyutu Girin");
     scanf("%d", &size2);
-    printf("Dizi Elemanlarý Giriniz\n");
+    printf("Dizi ElemanlarÃ½ Giriniz\n");
     for(int i =0; i < size2; i++){
     	scanf("%d", &y[i]);
 	}
@@ -37,7 +37,7 @@ int main() {
 		}
 	  }
 	}
-	printf("Sýralama:\n");
+	printf("SÃ½ralama:\n");
 	for(int i = 0; i <yeniSize; i++){
 		printf("%d\n", sayilar[i]);
 	}
@@ -52,49 +52,4 @@ int main() {
 
 
 
-/*
- int dizi1[MAX_SIZE], dizi2[MAX_SIZE], yeniDizi[MAX_SIZE*2];
-    int size1, size2, YeniSize;
-    int swap;
 
-    printf("1. dizi boyutunu girin: ");
-    scanf("%d", &size1);
-
-    printf("1. dizinin elemanlarýný girin:\n");
-    for (int i = 0; i < size1; i++) {
-        scanf("%d", &dizi1[i]);
-    }
-
-    printf("2. dizi boyutunu girin: ");
-    scanf("%d", &size2);
-
-    printf("2. dizinin elemanlarýný girin:\n");
-    for (int i = 0; i < size2; i++) {
-        scanf("%d", &dizi2[i]);
-    }
-
-     YeniSize = size1 + size2;
-
-    for (int i = 0; i < 1;size i++) {
-         yeniDizi[i] = dizi1[i];
-    }
-
-    for (int i = 0, j = size1; i < size2; i++, j++) {
-        yeniDizi[j] = dizi2[i];
-    }
-
-    for (int i=0; i<10; i++){
-  	for(int j=0; j<5-i; j++){
-  		if( yeniDizi[j]> yeniDizi[j +1 ]){
-  			swap =  yeniDizi[j];
-  			yeniDizi[j]= yeniDizi[j+1];
-  		    yeniDizi[j + 1] = swap;
-		  }
-	  }
-  }
-  printf("sýralanýþ:\n");
-  for(int i = 0; i <=YeniSize; i++){
-  printf("%d-",  yeniDizi[i]);
-  }
-
-    return 0;*/
