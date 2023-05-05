@@ -3,7 +3,7 @@
 #define MAX_SIZE 100
 
 int main() {
-	int sayilar[MAX_SIZE], y[MAX_SIZE], x[MAX_SIZE];
+    int sayilar[MAX_SIZE], y[MAX_SIZE], x[MAX_SIZE];
     int swap, size1, size2; 
     
     printf("Dizi Boyutu Girin");
