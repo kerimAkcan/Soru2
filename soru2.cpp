@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_SIZE 10000
+#define MAX_SIZE 100
 
 int main() {
 	int sayilar[MAX_SIZE], y[MAX_SIZE], x[MAX_SIZE];
