@@ -12,7 +12,7 @@ int main() {
     for(int i =0; i < size1; i++){
     	scanf("%d", &x[i]);
 	}
-	printf("Dizi Boyutu Girin");
+    printf("Dizi Boyutu Girin");
     scanf("%d", &size2);
     printf("Dizi Elemanlarý Giriniz\n");
     for(int i =0; i < size2; i++){
@@ -31,15 +31,15 @@ int main() {
 	for(int i = 1; i <yeniSize; i++){
 		for(int j = 0; j <yeniSize-i; j++){
 			if(sayilar[j]>sayilar[j+1]){
-			swap = sayilar[j];
-			sayilar[j] = sayilar[j + 1];
-			sayilar[j + 1] = swap;
+			  swap = sayilar[j];
+			  sayilar[j] = sayilar[j + 1];
+			  sayilar[j + 1] = swap;
 		}
 	  }
 	}
 	printf("Sýralama:\n");
 	for(int i = 0; i <yeniSize; i++){
-		printf("%d\n", sayilar[i]);
+	    printf("%d\n", sayilar[i]);
 	}
 }
    
